@@ -1,0 +1,61 @@
+form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #0c0000;
+  padding-bottom: 10px;
+  margin: auto;
+  background:  rgb(138, 147, 201);
+}
+
+.boton3{
+          
+  display:inline-block;
+  width:60%;
+  padding: 5px;
+  background: rgb(35, 107, 175);
+  width:05%;
+  text-align: center;
+  color:rgb(200, 240, 249);
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgb(102, 109, 101);
+
+ }
+
+.boton3:hover{
+
+  box-shadow: 0px 0px 20px 5px rgb(72, 221, 221);
+  
+}
+
+body {
+  background-image: url('fondo.jpg');
+}
+
+input[type=textfield] {
+    width: 75%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid rgb(19, 2, 2);
+    border-radius: 1px;
+    text-align: left;
+    color: rgb(10, 0, 0);
+    background: rgb(235, 225, 225);
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #081020;
+    border: none;
+    color: rgb(253, 252, 252);
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #333;
+}

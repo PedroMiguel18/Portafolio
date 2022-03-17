@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+header {
+	/*background: black;*/
+	color: white;
+	margin: 0;
+}
+
+.main {
+	background: #f2f2f2;
+}
+
+.dropdown-menu {
+	background-color: #16a085;
+	color: white;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.principal {
+    padding-bottom: 70px;
+    margin-bottom: 30px;
+    max-width: 1200px;
+	margin: 0 auto;
+    margin-bottom: 0px;
+	padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.catalogo {
+	padding-bottom: 33px;
+}
+
+.color1 {
+	background: #34495e;
+	color: #fff;
+}
+
+aside {
+	background: #c0392b;
+	color: #fff;
+}
+
+footer {
+	background: #16a085;
+	color: #fff;
+}
+
+.btn-outline-search{
+	color: #16a085;
+    border-color: #16a085;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+ul, ol {
+    list-style: none outside none;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-wrapper .footer-middle {
+    padding: 24px 0;
+    font-size: 13px;
+    position: relative;
+}
+
+.footer-middle a {
+    color: white;
+}
+
+.footer-middle .info-footer .footer-block-title h3 {
+    margin: 5px 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.footer-wrapper .footer-middle .block-bottom {
+	padding: 27px 0;
+	border-top: 1px solid white;
+	text-align: left;
+}
+
+.footer-wrapper .footer-middle ul.footer-list li {
+    position: relative;
+    padding: 6px 0;
+    line-height: 1;
+    display: block;
+}
+
